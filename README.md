@@ -321,18 +321,19 @@ Through this project, I practiced:
 
 ---
 
-## 🚀 Future Improvements
+## 👤 Author
 
-- Convert CSV files to Parquet for better Athena performance
-- Add Apache Airflow orchestration
-- Add Terraform or AWS CDK infrastructure setup
-- Add automated data quality checks
-- Add unit tests for transformation functions
-- Add partitioned S3 folder structure by year/month/day
-- Add CI/CD pipeline for deployment validation
+**Muhammad Ali Nawaz**  
+Cloud Data Engineer
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT license](LICENSE).
+
+---
+
+<p align="center">
+  <b>⭐ If you like this project, consider starring the repository!</b>
+</p>
