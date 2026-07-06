@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+credentials
+.aws/
+
+# AWS / deployment artifacts
+.aws-sam/
+.serverless/
+cdk.out/
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Logs
+*.log
+logs/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data outputs
+# Keep the raw source dataset, but ignore generated daily snapshots by default.
+datasets/orders_*.csv
+outputs/
+processed/
+tmp/
+
+# Large local data formats generated during experimentation
+*.parquet
+*.avro
+*.orc
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
