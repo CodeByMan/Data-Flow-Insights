@@ -20,6 +20,8 @@
 
 ---
 
+![Architecture Diagram](Architecture-Diagram.png)
+
 ## 🚀 Project Overview
 
 **DataFlow Insights** is a practical data engineering project that demonstrates how raw retail order data can be prepared, uploaded, cataloged, queried, and visualized using a modern AWS analytics workflow.
@@ -35,34 +37,6 @@ This project is designed to show job-ready understanding of:
 - Serverless querying with Athena
 - Business dashboarding with QuickSight
 - Secure configuration using environment variables
-
----
-
-## 🏗️ Architecture
-
-![Architecture Diagram](Architecture-Diagram.png)
-
-```text
-Superstore CSV Dataset
-        |
-        v
-Python + Pandas Processing
-        |
-        v
-Daily Order Snapshot CSV Files
-        |
-        v
-Amazon S3 Data Lake
-        |
-        v
-AWS Glue Crawler + Data Catalog
-        |
-        v
-Amazon Athena SQL Queries
-        |
-        v
-Amazon QuickSight Dashboard
-```
 
 ---
 
